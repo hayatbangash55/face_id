@@ -13,8 +13,9 @@ class FaceIdAuth {
 
         Get.log('List of Available Biometrics $availableBiometrics');
 
-        return (availableBiometrics.isNotEmpty &&
-                availableBiometrics.contains(BiometricType.face))
+        return (availableBiometrics.isNotEmpty
+            //&& availableBiometrics.contains(BiometricType.face)
+            )
             ? true
             : false;
       } else {

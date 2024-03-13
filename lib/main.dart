@@ -1,4 +1,5 @@
 
+import 'package:face_id/screens/autofill/autofill_view.dart';
 import 'package:face_id/screens/home2/home2_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: false,
       ),
-      home: Home2View(),
+      home: AutoFillView(),
     );
   }
 }
